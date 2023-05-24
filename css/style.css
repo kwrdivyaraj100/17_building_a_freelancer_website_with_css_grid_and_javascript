@@ -49,3 +49,24 @@ p {
     align-content: center;
     text-align: center;
 }
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 3rem;
+}
+.services {
+    text-align: center;
+    margin-top: 3rem;
+}
+.services h2::after {
+    padding-bottom: .5rem;
+    width: 7rem;
+    background-color:var(--primary);
+    display: block;
+    content:'';
+    margin: 1rem auto 0 auto;
+}
+.services i {
+    font-size: 3rem;
+    color: var(--secondary);
+}
