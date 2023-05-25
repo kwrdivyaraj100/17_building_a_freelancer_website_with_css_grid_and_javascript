@@ -70,3 +70,16 @@ p {
     font-size: 3rem;
     color: var(--secondary);
 }
+.footer {
+    background-image: url(../img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 3rem;
+    padding: 2rem 0;
+    color: var(--light);
+}
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
